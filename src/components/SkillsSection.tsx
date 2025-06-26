@@ -2,8 +2,6 @@
 import { useState } from 'react';
 
 export const SkillsSection = () => {
-  const [selectedCategory, setSelectedCategory] = useState('all');
-
   const skillCategories = {
     programming: {
       title: 'Programming',
@@ -43,22 +41,6 @@ export const SkillsSection = () => {
     }
   };
 
-  const getAllSkills = () => {
-    return Object.values(skillCategories).flatMap(category => 
-      category.skills.map(skill => ({ skill, category: category.title, color: category.color }))
-    );
-  };
-
-  const getFilteredSkills = () => {
-    if (selectedCategory === 'all') {
-      return getAllSkills();
-    }
-    const category = skillCategories[selectedCategory];
-    return category.skills.map(skill => ({ skill, category: category.title, color: category.color }));
-  };
-
-  const filteredSkills = getFilteredSkills();
-
   return (
     <section className="py-24 px-4 sm:px-6 lg:px-8 bg-white dark:bg-gray-900">
       <div className="max-w-7xl mx-auto">
@@ -72,51 +54,36 @@ export const SkillsSection = () => {
           </p>
         </div>
 
-        {/* Category Filter Buttons */}
-        <div className="flex flex-wrap justify-center gap-4 mb-16">
-          <button
-            onClick={() => setSelectedCategory('all')}
-            className={`px-6 py-3 rounded-full font-medium transition-all duration-300 ${
-              selectedCategory === 'all'
-                ? 'bg-gradient-to-r from-blue-600 to-purple-600 text-white shadow-lg'
-                : 'bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700'
-            }`}
-          >
-            All Skills
-          </button>
+        {/* Skills Categories Grid */}
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {Object.entries(skillCategories).map(([key, category]) => (
-            <button
-              key={key}
-              onClick={() => setSelectedCategory(key)}
-              className={`px-6 py-3 rounded-full font-medium transition-all duration-300 flex items-center gap-2 ${
-                selectedCategory === key
-                  ? 'bg-gradient-to-r from-blue-600 to-purple-600 text-white shadow-lg'
-                  : 'bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700'
-              }`}
-            >
-              <span className="text-lg">{category.icon}</span>
-              {category.title}
-            </button>
-          ))}
-        </div>
-
-        {/* Skills Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
-          {filteredSkills.map((item, index) => (
             <div
-              key={`${item.skill}-${index}`}
-              className="group relative bg-white dark:bg-gray-800 p-6 rounded-2xl border border-gray-200 dark:border-gray-700 hover:shadow-2xl transition-all duration-500 hover:scale-105 hover:-translate-y-2 overflow-hidden"
+              key={key}
+              className="group relative bg-white dark:bg-gray-800 p-8 rounded-2xl border border-gray-200 dark:border-gray-700 hover:shadow-2xl transition-all duration-500 hover:scale-105 hover:-translate-y-2 overflow-hidden"
             >
               {/* Gradient overlay */}
-              <div className={`absolute inset-0 bg-gradient-to-br ${item.color} opacity-5 group-hover:opacity-15 transition-opacity duration-300`}></div>
+              <div className={`absolute inset-0 bg-gradient-to-br ${category.color} opacity-5 group-hover:opacity-15 transition-opacity duration-300`}></div>
               
-              <div className="relative z-10 text-center">
-                <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-2 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-300">
-                  {item.skill}
-                </h3>
-                <span className="text-sm text-gray-500 dark:text-gray-400 font-medium">
-                  {item.category}
-                </span>
+              <div className="relative z-10">
+                <div className="flex items-center gap-3 mb-6">
+                  <span className="text-3xl">{category.icon}</span>
+                  <h3 className="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-300">
+                    {category.title}
+                  </h3>
+                </div>
+                
+                <div className="space-y-3">
+                  {category.skills.map((skill, index) => (
+                    <div
+                      key={index}
+                      className="flex items-center justify-between p-3 bg-gray-50 dark:bg-gray-700 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-600 transition-colors duration-200"
+                    >
+                      <span className="text-gray-700 dark:text-gray-300 font-medium">
+                        {skill}
+                      </span>
+                    </div>
+                  ))}
+                </div>
               </div>
               
               {/* Shine effect */}

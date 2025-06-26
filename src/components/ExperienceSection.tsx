@@ -81,7 +81,7 @@ export const ExperienceSection = () => {
                     
                     <div className="relative z-10">
                       <div className="flex items-center gap-4 mb-4">
-                        <span className="text-4xl animate-bounce">{exp.emoji}</span>
+                        <span className="text-4xl">{exp.emoji}</span>
                         <div>
                           <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-1">
                             {exp.role}

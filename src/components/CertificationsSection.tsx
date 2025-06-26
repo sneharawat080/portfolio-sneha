@@ -32,8 +32,8 @@ export const CertificationsSection = () => {
       gradient: "from-pink-500 to-rose-600"
     },
     {
-      title: "Forage – Virtual Work Experience Programs",
-      icon: "💼",
+      title: "SWAYAM – Language Course (Offered by IITs)",
+      icon: "📚",
       status: "✅",
       gradient: "from-indigo-500 to-purple-600"
     }
@@ -61,22 +61,22 @@ export const CertificationsSection = () => {
               {/* Gradient overlay */}
               <div className={`absolute inset-0 bg-gradient-to-br ${cert.gradient} opacity-5 group-hover:opacity-15 transition-opacity duration-300`}></div>
               
-              <div className="relative z-10">
-                <div className="flex items-start gap-4 mb-4">
-                  <span className="text-4xl animate-bounce group-hover:scale-110 transition-transform duration-300">{cert.icon}</span>
-                  <div className="flex-1">
-                    <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-3 leading-tight group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-300">
+              <div className="relative z-10 h-full flex flex-col">
+                <div className="flex items-start gap-4 mb-6 flex-1">
+                  <span className="text-4xl group-hover:scale-110 transition-transform duration-300">{cert.icon}</span>
+                  <div className="flex-1 min-w-0">
+                    <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-4 leading-tight group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-300 break-words">
                       {cert.title}
                     </h3>
-                    <div className="flex items-center gap-2">
-                      <span className="text-green-600 dark:text-green-400 text-2xl animate-pulse">
-                        {cert.status}
-                      </span>
-                      <span className="text-green-600 dark:text-green-400 font-semibold">
-                        Verified
-                      </span>
-                    </div>
                   </div>
+                </div>
+                <div className="flex items-center justify-center gap-3 p-3 bg-green-50 dark:bg-green-900/20 rounded-lg">
+                  <span className="text-green-600 dark:text-green-400 text-2xl">
+                    {cert.status}
+                  </span>
+                  <span className="text-green-600 dark:text-green-400 font-semibold">
+                    Verified
+                  </span>
                 </div>
               </div>
               
