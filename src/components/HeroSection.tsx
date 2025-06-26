@@ -1,5 +1,5 @@
 
-import { ArrowRight, Github, Linkedin, Contact, Sparkles } from 'lucide-react';
+import { ArrowRight, Github, Linkedin, Contact, Sparkles, Mail } from 'lucide-react';
 
 export const HeroSection = () => {
   const scrollToProjects = () => {
@@ -33,8 +33,7 @@ export const HeroSection = () => {
             <p className="text-2xl md:text-3xl text-gray-600 dark:text-gray-300 leading-relaxed font-medium">
               <span className="text-blue-600 dark:text-blue-400 font-semibold">AI Automation Intern</span> · 
               <span className="text-purple-600 dark:text-purple-400 font-semibold"> Web Developer</span> · 
-              <span className="text-pink-600 dark:text-pink-400 font-semibold"> Data Analyst</span> · 
-              <span className="text-indigo-600 dark:text-indigo-400 font-semibold"> Creative Technologist</span>
+              <span className="text-pink-600 dark:text-pink-400 font-semibold"> Data Analyst</span>
             </p>
           </div>
           
@@ -63,7 +62,7 @@ export const HeroSection = () => {
               rel="noopener noreferrer"
               className="group p-4 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:text-white hover:bg-blue-600 transition-all duration-300 hover:scale-110 hover:shadow-lg"
             >
-              <Github className="w-8 h-8 group-hover:rotate-12 transition-transform duration-300" />
+              <Github className="w-8 h-8 transition-transform duration-300" />
             </a>
             <a
               href="https://linkedin.com/in/sneha-rawat"
@@ -71,7 +70,13 @@ export const HeroSection = () => {
               rel="noopener noreferrer"
               className="group p-4 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:text-white hover:bg-blue-600 transition-all duration-300 hover:scale-110 hover:shadow-lg"
             >
-              <Linkedin className="w-8 h-8 group-hover:rotate-12 transition-transform duration-300" />
+              <Linkedin className="w-8 h-8 transition-transform duration-300" />
+            </a>
+            <a
+              href="mailto:sneharawat080@gmail.com"
+              className="group p-4 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 hover:text-white hover:bg-blue-600 transition-all duration-300 hover:scale-110 hover:shadow-lg"
+            >
+              <Mail className="w-8 h-8 transition-transform duration-300" />
             </a>
           </div>
         </div>

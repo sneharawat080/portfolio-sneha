@@ -1,5 +1,9 @@
 
+import { useState } from 'react';
+
 export const ProjectsSection = () => {
+  const [showAll, setShowAll] = useState(false);
+  
   const projects = [
     {
       title: "AI Automation System",
@@ -66,6 +70,8 @@ export const ProjectsSection = () => {
     }
   ];
 
+  const displayedProjects = showAll ? projects : projects.slice(0, 6);
+
   return (
     <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50 dark:bg-gray-800">
       <div className="max-w-6xl mx-auto">
@@ -77,7 +83,7 @@ export const ProjectsSection = () => {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {projects.map((project, index) => (
+          {displayedProjects.map((project, index) => (
             <div
               key={index}
               className="bg-white dark:bg-gray-900 rounded-xl p-6 shadow-lg border border-gray-200 dark:border-gray-700 hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
@@ -124,6 +130,20 @@ export const ProjectsSection = () => {
             </div>
           ))}
         </div>
+
+        {projects.length > 6 && (
+          <div className="text-center mt-12">
+            <button
+              onClick={() => setShowAll(!showAll)}
+              className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-medium transition-colors duration-300 flex items-center gap-2 mx-auto"
+            >
+              {showAll ? 'Show Less' : 'Load More Projects'}
+              <span className={`transform transition-transform duration-300 ${showAll ? 'rotate-180' : ''}`}>
+                ↓
+              </span>
+            </button>
+          </div>
+        )}
       </div>
     </section>
   );
