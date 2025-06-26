@@ -36,12 +36,6 @@ export const CertificationsSection = () => {
       icon: "💼",
       status: "✅",
       gradient: "from-indigo-500 to-purple-600"
-    },
-    {
-      title: "Accenture, Tata – Data Analytics & Business Insight",
-      icon: "📊",
-      status: "✅",
-      gradient: "from-red-500 to-pink-600"
     }
   ];
 

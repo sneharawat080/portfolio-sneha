@@ -35,6 +35,13 @@ export const SkillsSection = () => {
       color: "orange",
       icon: "🚀",
       gradient: "from-orange-500 to-red-500"
+    },
+    {
+      title: "Soft Skills",
+      skills: ["Problem Solving", "Team Collaboration", "Communication", "Project Management", "Critical Thinking", "Adaptability"],
+      color: "indigo",
+      icon: "🧠",
+      gradient: "from-indigo-500 to-blue-500"
     }
   ];
 
@@ -44,7 +51,8 @@ export const SkillsSection = () => {
       green: "bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-300 hover:bg-green-200 dark:hover:bg-green-800/50",
       purple: "bg-purple-100 text-purple-800 dark:bg-purple-900/30 dark:text-purple-300 hover:bg-purple-200 dark:hover:bg-purple-800/50",
       pink: "bg-pink-100 text-pink-800 dark:bg-pink-900/30 dark:text-pink-300 hover:bg-pink-200 dark:hover:bg-pink-800/50",
-      orange: "bg-orange-100 text-orange-800 dark:bg-orange-900/30 dark:text-orange-300 hover:bg-orange-200 dark:hover:bg-orange-800/50"
+      orange: "bg-orange-100 text-orange-800 dark:bg-orange-900/30 dark:text-orange-300 hover:bg-orange-200 dark:hover:bg-orange-800/50",
+      indigo: "bg-indigo-100 text-indigo-800 dark:bg-indigo-900/30 dark:text-indigo-300 hover:bg-indigo-200 dark:hover:bg-indigo-800/50"
     };
     return colors[color as keyof typeof colors] || colors.blue;
   };
