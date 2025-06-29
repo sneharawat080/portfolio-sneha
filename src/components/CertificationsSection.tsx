@@ -14,7 +14,7 @@ export const CertificationsSection = () => {
       gradient: "from-green-500 to-teal-600"
     },
     {
-      title: "IITs – Advanced Programming Concepts",
+      title: "Forage – Advanced Programming Concepts",
       icon: "💻",
       status: "✅",
       gradient: "from-purple-500 to-violet-600"
