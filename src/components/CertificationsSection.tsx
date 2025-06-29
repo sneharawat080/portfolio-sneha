@@ -14,7 +14,7 @@ export const CertificationsSection = () => {
       gradient: "from-green-500 to-teal-600"
     },
     {
-      title: "Forage – Advanced Programming Concepts",
+      title: "Forage – Virtual Work Simulations (Multiple Companies)",
       icon: "💻",
       status: "✅",
       gradient: "from-purple-500 to-violet-600"
@@ -32,7 +32,7 @@ export const CertificationsSection = () => {
       gradient: "from-pink-500 to-rose-600"
     },
     {
-      title: "SWAYAM – Language Course (Offered by IITs)",
+      title: "SWAYAM – Language Course (Offered by Forage)",
       icon: "📚",
       status: "✅",
       gradient: "from-indigo-500 to-purple-600"
