@@ -1,73 +1,118 @@
-# Welcome to your Lovable project
+# Sneha Rawat – Portfolio
 
-## Project info
+## 🌟 Overview
+Welcome to my professional portfolio!  
+I am an **AI Automation Intern**, **Web Developer**, and **Data Analyst** passionate about building intelligent automation systems, creating dynamic web applications, and transforming data into actionable insights.
 
-**URL**: https://lovable.dev/projects/17d87d23-23d1-444b-8b63-585edef7be49
+---
 
-## How can I edit this code?
+## 📌 Sections
+- **Home**
+- **About**
+- **Experience**
+- **Skills**
+- **Projects**
+- **Certifications**
+- **Research**
+- **Contact**
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 👩‍💻 About Me
+✨ **Passionate technologist and data enthusiast** with expertise in:
+- **AI-powered automation**
+- **Data visualization**
+- **Front-end development**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/17d87d23-23d1-444b-8b63-585edef7be49) and start prompting.
+**Mission Statement:**  
+> *Transforming complex data into actionable insights while automating the future, one algorithm at a time.*
 
-Changes made via Lovable will be committed automatically to this repo.
+**Languages:**  
+English · Hindi · German
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 📈 Professional Experience
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 🤖 AI Automation Intern – *Ribble Rewards* (May 2025 – July 2025)  
+- Developed automation systems using **Make.com, ChatGPT, Apollo, LinkedIn API, Google Sheets, Gmail**  
+- Streamlined marketing and outreach through intelligent workflows
 
-Follow these steps:
+### 🐍 Python Developer Intern – *NativeSoftTech* (Feb 2025 – April 2025)  
+- Built **Machine Learning GUI application** with Python & Streamlit  
+- Integrated algorithms (Decision Tree, KNN, SVM, Logistic Regression)  
+- Automated CSV uploads, scoring, and visualizations
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### 🎨 Frontend Developer – *StickerHub* (June 2024 – Aug 2024)  
+- Designed responsive e-commerce UI using **HTML, CSS, JavaScript, Bootstrap**
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### 📊 Data Analyst Intern – *Mentorness* (June 2024 – July 2024)  
+- Conducted hotel reservation & YouTube songs data analysis  
+- Created **Power BI/Tableau dashboards** for actionable insights
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## 🛠️ Skills
 
-**Edit a file directly in GitHub**
+**Programming:** Python, Java, SQL, HTML, CSS, JavaScript  
+**Data Tools:** Power BI, Excel, SQLite  
+**Dev Tools:** Git/GitHub, Flask, Make.com, Appify, Arduino, Socket.io, Swing  
+**Design Tools:** Canva, UI/UX, Prompt Writing  
+**Domains:** AI/ML, Web Development, IoT, Data Analysis, API Integration, Automation, Version Control  
+**Soft Skills:** Problem Solving, Team Collaboration, Communication, Critical Thinking, Adaptability, Time Management
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## 📂 Featured Projects
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### 1. **AI Automation System**
+**Tech Stack:** Make.com, Apollo, LinkedIn API, JS, Gmail  
+- Automated investor outreach via email sequencing and data parsing.
 
-## What technologies are used for this project?
+### 2. **Competitive Intelligence Automation**
+**Tech Stack:** Python, Google Sheets, Data Scraping  
+- Scraped competitor content for tracking and trend alerts.
 
-This project is built with:
+### 3. **Machine Learning GUI**
+**Tech Stack:** Python, Streamlit, Scikit-learn  
+- Interactive ML tool for CSV uploads, model training, and visualization.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### 4. **StickerHub Website**
+**Tech Stack:** HTML, CSS, JS  
+- E-commerce site for customized skins & sticker products.
 
-## How can I deploy this project?
+### 5. **YouTube Songs Analysis**
+**Tech Stack:** Power BI, Excel  
+- Dashboard showcasing engagement trends, seasonality, and top content.
 
-Simply open [Lovable](https://lovable.dev/projects/17d87d23-23d1-444b-8b63-585edef7be49) and click on Share -> Publish.
+### 6. **Mario Math Game**
+**Tech Stack:** HTML5 Canvas, JS, CSS  
+- Fun educational game for math practice.
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## 🎓 Certifications
+- **IBM** – Data Science & AI Certification ✅  
+- **Google** – Cloud & Analytics Professional ✅  
+- **Forage** – Virtual Work Simulations ✅  
+- **University of Michigan** – Data Structures & Python Basics ✅  
+- **Coursera** – Front-end Development ✅  
+- **SWAYAM** – Language Course ✅  
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## 🔬 Research
+**Title:** *Artificial Intelligence and Machine Learning in Astrophysics: A Comprehensive Guide to Data-Driven Cosmic Exploration*  
+**Status:** In Progress (2024)  
+**Focus Areas:** ML Integration, Data Frameworks, Astrophysical Challenges, Exploration Models
+
+---
+
+## 📬 Contact
+📧 **Email:** sneharawat080@gmail.com  
+💼 **LinkedIn:** [linkedin.com/in/sneha-rawat](https://linkedin.com/in/sneha-rawat)  
+💻 **GitHub:** [github.com/sneharawat080](https://github.com/sneharawat080)  
+
+---
+
+© 2024 Sneha Rawat. All rights reserved.
