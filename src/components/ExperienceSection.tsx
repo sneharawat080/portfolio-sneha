@@ -14,7 +14,7 @@ export const ExperienceSection = () => {
       role: "Python Developer Intern",
       company: "NativeSoftTech",
       period: "Feb 2025 – April 2025",
-      description: "At NativeSoftTech, I developed a Machine Learning GUI application using Python and Streamlit that enabled users to upload CSV datasets, select target columns, and apply algorithms such as Decision Tree, KNN, Naive Bayes, SVM, Logistic Regression, and Linear Regression. The application generated automated accuracy scores, confusion matrices, classification reports, and visualizations including decision boundaries and scatter plots, allowing both technical and non-technical users to interpret results easily through interactive, user-friendly interfaces and live demonstrations.",
+      description: "Developed a Machine Learning GUI application using Python and Streamlit with algorithms like Decision Tree, KNN, SVM, and Logistic Regression. Created interactive interfaces for CSV uploads, automated accuracy scoring, and data visualizations.",
       gradient: "from-green-500 to-teal-600"
     },
     {
