@@ -102,7 +102,7 @@ English · Hindi · German
 ---
 
 ## 🔬 Research
-**Title:** *Artificial Intelligence and Machine Learning in Astrophysics: A Comprehensive Guide to Data-Driven Cosmic Exploration*  
+**Title:** *AI-Driven Framework for Real-Time Gravitational Wave Anomaly Detection and Predictive Cosmic Event Forecasting*  
 **Status:** In Progress (2024)  
 **Focus Areas:** ML Integration, Data Frameworks, Astrophysical Challenges, Exploration Models
 
