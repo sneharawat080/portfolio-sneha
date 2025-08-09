@@ -16,7 +16,7 @@ export const ResearchSection = () => {
               <span className="text-4xl">📘</span>
               <div className="flex-1">
                 <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
-                  Artificial Intelligence and Machine Learning in Astrophysics: A Comprehensive Guide to Data-Driven Cosmic Exploration
+                  AI-Driven Framework for Real-Time Gravitational Wave Anomaly Detection and Predictive Cosmic Event Forecasting
                 </h3>
                 
                 <div className="flex flex-wrap gap-2 mb-6">
@@ -24,7 +24,7 @@ export const ResearchSection = () => {
                     IN PROGRESS
                   </span>
                   <span className="bg-blue-100 text-blue-800 dark:bg-blue-900/30 dark:text-blue-300 text-sm font-medium px-3 py-1 rounded-full">
-                    2024
+                    2025
                   </span>
                 </div>
               </div>
