@@ -14,16 +14,8 @@ export const ExperienceSection = () => {
       role: "Python Developer Intern",
       company: "NativeSoftTech",
       period: "Feb 2025 – April 2025",
-      description: "Developed Python scripts for data processing and a Flask-based web app integrated with SQLite. Demonstrated strong API integration and debugging.",
+      description: "At NativeSoftTech, I developed a Machine Learning GUI application using Python and Streamlit that enabled users to upload CSV datasets, select target columns, and apply algorithms such as Decision Tree, KNN, Naive Bayes, SVM, Logistic Regression, and Linear Regression. The application generated automated accuracy scores, confusion matrices, classification reports, and visualizations including decision boundaries and scatter plots, allowing both technical and non-technical users to interpret results easily through interactive, user-friendly interfaces and live demonstrations.",
       gradient: "from-green-500 to-teal-600"
-    },
-    {
-      emoji: "💻",
-      role: "Web Developer Intern",
-      company: "Octanet Services Pvt. Ltd.",
-      period: "Aug 2024 – Oct 2024",
-      description: "Created interactive features like a 3D landing page, Tic-Tac-Toe game, and a calculator. Practiced efficient code delivery, UI design, and performance tuning.",
-      gradient: "from-orange-500 to-red-600"
     },
     {
       emoji: "🎨",
